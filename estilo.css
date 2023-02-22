@@ -1,0 +1,407 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+.menu_home {
+
+    background-color: rgb(50, 59, 64);
+    width: 100%;
+
+
+}
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: center;
+
+
+}
+
+a {
+    max-height: 100%;
+    text-decoration: none;
+    align-content: center;
+    padding: 10px 15px 10px 30px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    color: #ffffff;
+
+
+}
+
+li:hover {
+    background-color: rgb(33, 131, 131);
+    transform: scale(1, 1);
+}
+
+
+/*<------------CAJA TRASERA INICIO/REGISTRO ------->*/
+
+
+
+.main-home{
+    position: relative;
+    height: 550px;
+    background-image: url("BOTANIC-8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+.contenedor__todo {
+    width: 700px;
+    position: relative;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+
+}
+
+.caja__trasera {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(50, 59, 64, 0.502);
+
+}
+
+.caja__trasera-login {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.caja__trasera-register {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#btn__iniciar-sesion {
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+
+}
+
+
+#btn__registrarse {
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+
+
+}
+
+#btn__iniciar-sesion:hover {
+    background-color: white;
+    color: #46a2fd;
+
+}
+
+#btn__registrarse:hover {
+    background-color: white;
+    color: #46a2fd;
+
+}
+
+/*<---------------CAJA DELANTERA INIO/REGISTRO -------->*/
+.contenedor__login-register {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+
+}
+
+.formulario__register {
+    background-color: rgba(222, 229, 233, 1);
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    position: absolute;
+    left: 0px;
+    top: -70px;
+    display: none;
+    opacity: 0;
+
+
+
+}
+
+h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+input {
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    margin: auto;
+    padding: 10px 40px;
+    background-color: rgb(50, 59, 64);
+    color: white;
+    cursor: pointer;
+}
+
+.formulario__login {
+    background-color: rgba(222, 229, 233, 1);
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: none;
+    opacity: 0;
+
+}
+
+/*-------------------------------------------FOOTER--------------------------------------*/
+
+/*--------------------------------------------------------------PAGINA GALERIA-----------------------------------------------------------*/
+
+/*<----------------------------------------MENU GALERIA--------------------------------->*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+.menu_galeria {
+
+    background-color: rgb(50, 59, 64);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: center;
+
+}
+
+a {
+
+    text-decoration: none;
+    align-content: center;
+    padding: 10px 15px 10px 30px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    color: #ffffff;
+
+
+}
+
+li:hover {
+    background-color: rgb(33, 131, 131);
+    
+}
+.fondo{
+    background-color: rgb(33, 131, 131);
+    height:1000px ;
+}
+.main-galeria{
+    padding: 0.5rem;
+    background-color: rgb(33, 131, 131);
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+#contenedor_de_foto  {
+    padding: 0.5rem;
+    background-color: rgb(33, 131, 131);
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 0.3rem;
+
+}
+.imagen-foto{
+    max-width: 100%;
+    grid-area: "area1";
+}
+.detalle-foto{
+    
+    background-color: rgba(50, 59, 64, 0.5);
+    border-radius: 0.3rem;
+}
+
+.agregar-foto{    
+    height: 4rem;
+    border-radius: 0.3rem;
+    color: #ffffff;
+}
+.agregar-foto:hover {
+    background-color: rgb(33, 131, 131);
+}
+/*-------------------------------Carrito de Compra------------------------------*/
+
+.main-carro{
+    background-image: url("fondogaleria.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2000px;
+    
+}
+.Carro {
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 3rem;
+    background-color: rgb(33, 131, 131);
+    
+}
+.titulo-principal{
+    padding-bottom: 5rem;
+}
+
+/** CARRITO **/
+
+.contenedor-carrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.5rem;
+    
+}
+
+
+
+.carrito-productos {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+    gap: 4rem;
+    
+}
+
+.carrito-producto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 8rem;
+    
+    
+}
+
+.carrito-producto-imagen {
+    width: 14rem;
+    
+}
+
+.carrito-producto small {
+    font-size: 1rem;
+    
+}
+
+.carrito-producto-eliminar {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.carrito-acciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrito-acciones-vaciar {
+    border: 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.carrito-acciones-derecha {
+    display: flex;
+}
+
+.carrito-acciones-total {
+    display: flex;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    gap: 1rem;
+}
+
+.carrito-acciones-comprar {
+    border: 0;
+    padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.header-mobile {
+    display: none;
+}
+
+.close-menu {
+    display: none;
+}
+
+.disabled {
+    display: none;
+}

@@ -1,0 +1,112 @@
+[
+        {
+            "id": "fotografiasretrato01",
+            "tamaño": "Grande",
+            "categoria": "fotografía de moda",
+            "precio": 50000,
+            "imagen": "./moda.jpg",
+            "tipo": {
+                "nombre": "Fotos Retrato",
+                "id": "retratos"
+            }
+        },
+        {
+            "id": "fotografiasretrato02",
+            "tamaño": "Grande",
+            "categoria": "fotografía de eventos sociales",
+            "precio": 15000,
+            "imagen": "./eventosocial.jpg",
+            "tipo": {
+                "nombre": "Fotos Retrato",
+                "id": "retratos"
+            }
+        },
+        {
+            "id": "fotografiasretrato03",
+            "tamaño": "Grande",
+            "categoria": "fotografía deportiva",
+            "precio": 8000,
+            "imagen": "./deportiva.jpg",
+            "tipo": {
+                "nombre": "Fotos Retrato",
+                "id": "retratos"
+            }
+        },
+        {
+            "id": "fotografiasreportaje01",
+            "tamaño": "Grande",
+            "categoria": "fotografía de prensa",
+            "precio": 11000,
+            "imagen": "./prensa.jpg",
+            "tipo": {
+                "nombre": "Fotos Reportaje",
+                "id": "reportajes"
+            }
+        },
+        {
+            "id": "fotografiasreportaje02",
+            "tamaño": "Grande",
+            "categoria": "fotografía de guerra",
+            "precio": 70000,
+            "imagen": "./guerra.jpg",
+            "tipo": {
+                "nombre": "Fotos Reportaje",
+                "id": "reportajes"
+            }
+        },
+        {
+            "id": "fotografiasreportaje03",
+            "tamaño": "Grande",
+            "categoria": "fotografía documental",
+            "precio": 25000,
+            "imagen": "./documental.jpg",
+            "tipo": {
+                "nombre": "Fotos Reportaje",
+                "id": "reportajes"
+            }
+        },
+        {
+            "id": "fotografiaspaisajes01",
+            "tamaño": "Grande",
+            "categoria": "fotografía de arquitectura",
+            "precio": 30000,
+            "imagen": "./arquitectura.jpg",
+            "tipo": {
+                "nombre": "Fotos Paisajes",
+                "id": "paisajes"
+            }
+        },
+        {
+            "id": "fotografiaspaisajes02",
+            "tamaño": "Grande",
+            "categoria": "fotografía aérea",
+            "precio": 20000,
+            "imagen": "./aerea.jpg",
+            "tipo": {
+                "nombre": "Fotos Paisajes",
+                "id": "paisajes"
+            }
+        },
+        {
+            "id": "fotografiaspaisajes03",
+            "tamaño": "Grande",
+            "categoria": "fotografía de la Naturaleza",
+            "precio": 10000,
+            "imagen": "./Naturaleza.jpg",
+            "tipo": {
+                "nombre": "Fotos Paisajes",
+                "id": "paisajes"
+            }
+        },
+        {
+            "id": "fotografiaspaisajes04",
+            "tamaño": "Grande",
+            "categoria": "fotografía submarina",
+            "precio": 40000,
+            "imagen": "submarina.jpg",
+            "tipo": {
+                "nombre": "Fotos Paisajes",
+                "id": "paisajes"
+            }
+        }
+]
